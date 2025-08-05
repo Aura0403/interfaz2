@@ -7,7 +7,7 @@ void setup() {
   Serial.println("Hola, Mundo!"); // Envía "Hola, Mundo!" al monitor serie
 }
 
-void loop() {
+void loop() { 
   // No es necesario poner nada en el loop para este ejemplo
 }
 ```
