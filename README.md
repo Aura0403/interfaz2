@@ -29,8 +29,8 @@ void loop() {   // Se repite infinitamente
   delay(1000);
 }
 ```
-<a 
-href="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20parpadeante.png">Led Parpadeante</a> 
+<img 
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20parpadeante.png" width="1024" height="550" />
 
 ### Ejercicio n°3: Control por pulsador
 ```js
