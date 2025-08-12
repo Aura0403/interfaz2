@@ -59,6 +59,8 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
+<img
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20ponteciometro.png" width="1024" height="550" />
 
 ### Ejercicio n°5: Semaforo en Arduino
 ```js
