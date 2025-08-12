@@ -46,6 +46,8 @@ void loop() {
   }
 }
 ```
+<img
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20pulsador.png" width="1024" height="550" />
 ### Ejercicio n°4: led con potenciometro
 ```js
 void setup() {
