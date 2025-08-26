@@ -212,6 +212,8 @@ void draw()
     ellipse(width/1, height/5, d, d);
 }
 ```
+<img 
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/Ejercicio%206.png" width="1024" height="550" />
 
 
   
