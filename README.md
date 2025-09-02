@@ -285,6 +285,13 @@ void draw() {
   }
 }
 ```
+<img 
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/Ejercicio%207%20arduino%20boton%20processing.png" height="550" />
+<img 
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/Ejercicio%207%20arduino%20boton%20processing.png" height="550" />
+
+
+
 
 
 
