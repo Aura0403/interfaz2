@@ -285,8 +285,10 @@ void draw() {
   }
 }
 ```
+### primer boceto
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/Ejercicio%207%20arduino%20boton%20processing.png" height="550" />
+### segundo boceto definitivo
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/ejercicio%207%20arduino%20boton%20processing%202.png" height="550" />
 
@@ -378,9 +380,11 @@ class CircleData {
   }
 }
 ```
+### primer boceto
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/ejercico%208%20arduino%20boton%20pocentiometro%20procesing.png" height="550" />
 
+### boceto final y definitivo
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/ejercicio%208%20arduino%20boton%20potenciometro%20processing2.png" height="550" />
 
