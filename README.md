@@ -382,7 +382,7 @@ class CircleData {
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/ejercico%208%20arduino%20boton%20pocentiometro%20procesing.png" height="550" />
 
 <img 
-src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/ejercico%208%20arduino%20boton%20pocentiometro%20procesing.png" height="550" />
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/ejercicio%208%20arduino%20boton%20potenciometro%20processing2.png" height="550" />
 
 
 
