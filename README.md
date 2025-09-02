@@ -32,7 +32,7 @@ void loop() {   // Se repite infinitamente
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20parpadeante.png" width="1024" height="550" />
 
-### Ejercicio n°3: Control por pulsador
+### Ejercicio n°3: Led pulsador
 ```js
 void setup() {
   pinMode(2, INPUT);  // Botón como entrada
@@ -214,6 +214,10 @@ void draw()
 ```
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/Ejercicio%206.png" width="1024" height="550" />
+
+
+
+
 
 
   
