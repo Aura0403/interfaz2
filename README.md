@@ -412,6 +412,9 @@ void loop() {
   }
 
 ```
+<img 
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/for%20if%20else.png" height="550" />
+
 
 
 
