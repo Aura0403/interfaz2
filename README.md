@@ -31,6 +31,9 @@ void loop() {   // Se repite infinitamente
 ```
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20parpadeante.png" width="1024" height="550" />
+<img 
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20parpadeante%20fisico.jpeg" width="1024" height="550" />
+
 
 ### Ejercicio n°3: Led pulsador
 ```js
@@ -64,6 +67,8 @@ void loop() {
 ```
 <img
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/led%20ponteciometro.png" width="1024" height="550" />
+<img
+src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/potenciometo%20fisico.jpeg" width="1024" height="550" />
 
 ### Ejercicio n°5: Semaforo en Arduino
 ```js
@@ -113,6 +118,8 @@ void loop() {
 }
 ```
 <img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/semaforo.png" width="1024" height="550" />
+
+<img src="http://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/semaforo%20fisico.jpeg" width="1024" height="550" />
 
 ### Ejercicio semaforo con alteraccion luz peatonal verde
 ```js
