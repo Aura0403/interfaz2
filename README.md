@@ -736,6 +736,20 @@ class CircleData {
 }
 ```
 
+## Regisro resultado de processing
+
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/registro%20processing%20entrega%201.png" width="1024" height="550" />
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/registro%20processing%20entrega%202.png" width="1024" height="550" />
+<img src="http://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/registro%20processing%20entrega%203.png" width="1024" height="550" />
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/registro%20processing%204.png" width="1024" height="550" />
+
+## Registro fisico
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/regiistro%20fisico%20entrega%201.jpeg" width="1024" height="550" />
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/registro%20fisico%20entrega%202.jpeg" width="1024" height="550" />
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/registro%20fisico%20entrega%203.jpeg" width="1024" height="550" />
+
+
+
 
 
 
