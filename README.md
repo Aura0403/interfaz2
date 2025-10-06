@@ -591,7 +591,7 @@ src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/bo
 
 ### Codigo arduino
 
-´´´js
+```js
 
 int buttonPin = 2;       // Pin del botón
 int potPin = A0;         // Pin del potenciómetro
@@ -615,10 +615,10 @@ void loop() {
     delay(200);               // debounce simple
   }
 }
-´´´
+```
 ### Codigo processing sin modificar
 
-´´´js
+```js
 
 import processing.serial.*;
 
@@ -675,11 +675,11 @@ class CircleData {
     this.size = size;
   }
 }
-´´´
+```
 
 ### Codigo processing modificado
 
-´´´js
+```js
 
 import processing.serial.*;  
 
@@ -734,7 +734,8 @@ class CircleData {
     this.size = size;
   }
 }
-´´´
+```
+
 
 
 
