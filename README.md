@@ -587,6 +587,153 @@ src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/bo
 <img 
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/botonera%20en%20fisico.jpeg" height="550" /> 
 
+## Ejercicio con nota: Arduino + botón + potenciometro + Processing modificado (colores y formas)
+
+### Codigo arduino
+
+´´´js
+int buttonPin = 2;       // Pin del botón
+int potPin = A0;         // Pin del potenciómetro
+int buttonState = 0;
+
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP); // Botón con resistencia interna
+  Serial.begin(9600);
+}
+
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+
+  if (buttonState == HIGH) {   // Botón presionado
+    int potValue = analogRead(potPin);   // 0 - 1023
+    Serial.print("BTN,");     // etiqueta para Processing
+    Serial.println(potValue); // mando el valor junto con el evento 
+    delay(200);               // debounce simple
+  }
+}
+´´´
+### Codigo processing sin modificar
+´´´js
+import processing.serial.*;
+
+Serial myPort;
+ArrayList<CircleData> circles; 
+
+void setup() {
+  size(1200, 720);
+  background(0);
+  
+  // Ajusta el puerto según tu Arduino
+  println(Serial.list());
+  myPort = new Serial(this, "COM3", 9600);
+  //myPort = new Serial(this, Serial.list()[0], 9600);
+  
+  circles = new ArrayList<CircleData>();
+}
+
+void draw() {
+  //background(0);
+  
+  // Dibujar todos los círculos guardados
+  //fill(0, 150, 255);
+  //noStroke();
+  fill(random (247), random(5),random (196,200), 30);
+  stroke(247, 252, 252);
+  for (CircleData c : circles) {
+    ellipse(c.x, c.y, random(c.size), random (c.size));
+  }
+  
+  // Leer datos de Arduino
+  if (myPort.available() > 0) {
+    String val = myPort.readStringUntil('\n');
+    if (val != null) {
+      val = trim(val);
+      if (val.startsWith("BTN")) {
+        // Extraer el valor del potenciómetro
+        String[] parts = split(val, ',');
+        if (parts.length == 2) {
+          float potVal = float(parts[1]);
+          float circleSize = map(potVal, 0, 1023, 10, 100); // tamaño 10-100 px
+          circles.add(new CircleData(random(width), random(height), circleSize));
+        }
+      }
+    }
+  }
+}
+// Clase para guardar datos de cada círculo
+class CircleData {
+  float x, y, size;
+  CircleData(float x, float y, float size) {
+    this.x = x;
+    this.y = y;
+    this.size = size;
+  }
+}
+´´´
+
+### Codigo processing modificado
+´´´js
+
+import processing.serial.*;  
+
+Serial myPort;
+ArrayList<CircleData> circles;  
+
+void setup() {
+  size(1200, 800);               //  CAMBIADO: altura aumentada de 720 a 800, para que la ventana sea mas alta y puedan aparecer mas circulos en ella.
+  background(74, 0, 121);        // CAMBIADO: color de fondo cambiado a morado, ya que esta rojo y azul presente y el verde esta en 0.
+  
+  println(Serial.list());       
+  myPort = new Serial(this, "COM3", 9600);  
+  
+  circles = new ArrayList<CircleData>();   
+}
+
+void draw() {
+  //background(0);              
+  
+  // Colores aleatorios para los círculos
+  fill(random (240), random(136), random (89), 24);   //  CAMBIADO: color más cálido y más transparente ocupando tonalidades aleatorias de colores rojos, verdes y azules, tambienle agregue mas transparencia bajandolo de 30 a 24.
+  
+  stroke(52, 240, 24);                                //  CAMBIADO: contorno verde claro
+  
+  for (CircleData c : circles) {
+    ellipse(c.x, c.y, random(300), random(c.size));   //  CAMBIADO: ancho aleatorio hasta 300 provocando figuras mas desformes o anchas, antes la altura y el ancho dependian del mismo valor.
+  }
+
+  // Leer datos desde Arduino
+  if (myPort.available() > 0) {
+    String val = myPort.readStringUntil('\n');
+    if (val != null) {
+      val = trim(val);
+      if (val.startsWith("BTN")) {
+        String[] parts = split(val, ',');
+        if (parts.length == 2) {
+          float potVal = float(parts[1]);
+          float circleSize = map(potVal, 0, 1023, 10, 100);
+          circles.add(new CircleData(random(width), random(height), circleSize));
+        }
+      }
+    }
+  }
+}
+
+// Clase que guarda los datos del círculo (posición y tamaño)
+class CircleData {
+  float x, y, size;
+  CircleData(float x, float y, float size) {
+    this.x = x;
+    this.y = y;
+    this.size = size;
+  }
+}
+´´´
+
+
+
 
 
 
