@@ -592,6 +592,7 @@ src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/bo
 ### Codigo arduino
 
 ´´´js
+
 int buttonPin = 2;       // Pin del botón
 int potPin = A0;         // Pin del potenciómetro
 int buttonState = 0;
@@ -616,7 +617,9 @@ void loop() {
 }
 ´´´
 ### Codigo processing sin modificar
+
 ´´´js
+
 import processing.serial.*;
 
 Serial myPort;
@@ -675,6 +678,7 @@ class CircleData {
 ´´´
 
 ### Codigo processing modificado
+
 ´´´js
 
 import processing.serial.*;  
