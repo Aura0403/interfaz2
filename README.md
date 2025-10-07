@@ -588,7 +588,8 @@ src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/bo
 src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/botonera%20en%20fisico.jpeg" height="550" /> 
 
 ## Ejercicio con nota: Arduino + botón + potenciometro + Processing modificado (colores y formas)
-Este ejercicio muestra como resultado una visual de formas a traves de codigos que trabajan en conjunto entre Arduino y Processing, es una visual interactiva que funciona a traves de un potenciometro y boton, al momento de apretar el boton, este manda la señal que permite que aparezcan figuras circulares de tamaño aleatorio ya que ocupo un random en el ancho que arrojara tamaño de 0 a 300 y el alto fue respecto al tamaño base (c.size), y el potenciometro al ocuparlo genera cambios en el alto de las figuras, las hace mas largas o mas cortas, tambien hice cambios con respecto a los colores y fondo de la visual
+Este ejercicio muestra como resultado una visual de formas a traves de codigos que trabajan en conjunto entre Arduino y Processing, es una visual interactiva que funciona a traves de un potenciometro y boton, al momento de apretar el boton, este manda la señal que permite que aparezcan figuras circulares de tamaño aleatorio ya que ocupo un random en el ancho que arroja tamaño de 0 a 300 y el alto fue respecto al tamaño base (c.size), y el potenciometro al ocuparlo genera cambios en el alto de las figuras, las hace mas largas o mas cortas, tambien hice cambios con respecto a los colores y fondo de la visual.
+Me ayude con Inteligencia articifial al momento de necesitar orientacion para entender el cambio de la estetica visual y entender de mejor manera el funcionamiento general del circuito.
 
 
 ### Codigo arduino
