@@ -965,7 +965,16 @@ void calcAverage(float t) {
   avgImg.updatePixels();
 }
 ```
-## Registro fisico
+#### Registro fisico
+
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/registro%20fisico%20promedio%20de%20imagenes.jpg" height="550" />
+
+#### Registro Processing
+
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/promedio%20de%20imagenes%20registro%20processing.png" height="550" />
+
+
+
 
 
 
