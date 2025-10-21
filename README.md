@@ -11,6 +11,8 @@
 10.[Botonera](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-10-botonera)<br>
 11.[Entrega](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-con-nota-arduino--bot%C3%B3n--potenciometro--processing-modificado-colores-y-formas)<br>
 12.[Cuerpo, vídeo, sensor sharp](https://github.com/Aura0403/interfaz2/blob/main/README.md#ejercicio-12-cuerpo-v%C3%ADdeo-sensor-sharp)<br>
+13.[Promedio de imagenes](https://github.com/Aura0403/interfaz2/blob/main/README.md#ejercicio-13-promedio-de-imagenes)<br>
+
 
 
 
