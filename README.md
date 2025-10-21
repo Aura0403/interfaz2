@@ -874,6 +874,16 @@ void draw() {
   }
 }
 ```
+### Registro fisico
+
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/Cuerpo%2C%20v%C3%ADdeo%2C%20sensor%20sharp%20registro%20fisico.jpg" width="1024" height="550" />
+
+### Registro processing
+
+<img src="https://raw.githubusercontent.com/Aura0403/interfaz2/refs/heads/main/Img/cuerpo%2C%20video%2C%20sensor%2C%20sharp%2C%20registro%20processing.png" width="1024" height="550" />
+
+
+
 
 
 
