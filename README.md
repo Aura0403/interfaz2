@@ -1,4 +1,23 @@
 ### interfaz2
+1.[Hola Mundo](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n-1-arduino-hola-mundo)<br>
+2.[Led Parpadeante](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n2-led-parpadeante)<br>
+3.[Led Pulsador](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n3-led-pulsador)<br>
+4.[Led con potenciometro](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n4-led-con-potenciometro)<br>
+5.[Semaforo en Arduino](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n5-semaforo-en-arduino)<br>
+6.[Potenciometro+Arduino](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-6-elipse-interactivo-controlar-un-circulo-en-processing-mediante-un-potenciometro-conectado-a-un-arduino-uno)<br>
+7.[Arduino+boton+processing](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n-7-arduino--boton-processing)<br>
+8.[Arduino+boton+potenciometro+processing](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-8-arduino--bot%C3%B3n--potenciometro--processing)<br>
+9.[For if else](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-9-for-if-else)<br>
+10.[Botonera](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-10-botonera)<br>
+11.[Entrega](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-con-nota-arduino--bot%C3%B3n--potenciometro--processing-modificado-colores-y-formas)<br>
+
+
+
+
+
+
+
+
 ### Ejercicio n° 1 Arduino: "Hola mundo"
 
 ```js
